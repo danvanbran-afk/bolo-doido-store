@@ -1,27 +1,39 @@
-import "./App.css";
-import List from "./components/List.jsx";
-import Navbar from "./components/Navbar.jsx";
-import Sidebar from "./components/Sidebar.jsx";
-import Footer from "./components/Footer.jsx";
+// src/App.jsx
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+import Footer from "./components/Footer";
 
+// Páginas
+import Dashboard from "./pages/Dashboard";
+import ItemDetails from "./pages/ItemDetails";
+import About from "./pages/About";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>Project Dashboard</h1>
-      <div className="main-container" style={{ display: "flex", minHeight: "80vh" }}>
+      <div className="main-content" style={{ display: "flex" }}>
         <Sidebar />
-        <main className="content" style={{ flex: 1, padding: "20px" }}>
-          <h2>Dashboard</h2>
-          <p>Welcome to the store management system!</p>
-        </main>
+        
+        <div className="page-container" style={{ flex: 1, padding: "20px" }}>
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/item/:itemId" element={<ItemDetails />} />
+            <Route path="/about" element={<About />} />
+            {/* Rota para páginas não existentes */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </div>
       </div>
-
       <Footer />
     </div>
   );
 }
+
+export default App;
+
 
 import "./App.css";
 import List from "./components/List";
