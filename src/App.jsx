@@ -1,14 +1,12 @@
-// src/App.jsx
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
-import Footer from "./components/Footer";
-
-// Páginas
-import Dashboard from "./pages/Dashboard";
-import ItemDetails from "./pages/ItemDetails";
-import About from "./pages/About";
-import NotFound from "./pages/NotFound";
+import Navbar from "./components/Navbar.jsx";
+import Sidebar from "./components/Sidebar.jsx";
+import Footer from "./components/Footer.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import ItemDetails from "./pages/ItemDetails.jsx";
+import About from "./pages/About.jsx";
+import NotFound from "./pages/NotFound.jsx";
+import "./App.css";
 
 function App() {
   return (
@@ -22,7 +20,6 @@ function App() {
             <Route path="/" element={<Dashboard />} />
             <Route path="/item/:itemId" element={<ItemDetails />} />
             <Route path="/about" element={<About />} />
-            {/* Rota para páginas não existentes */}
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
@@ -33,19 +30,3 @@ function App() {
 }
 
 export default App;
-
-
-import "./App.css";
-import List from "./components/List";
-
-function App() {
-  return (
-    <div className="App">
-      <h1>Project Dashboard</h1>
-      <List />
-    </div>
-  );
-}
-
-export default App;
-

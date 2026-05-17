@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "title": "Essence Mascara Lash Princess",
+    "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects.",
+    "category": "beauty",
+    "price": 9.99,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 2,
+    "title": "Eyeshadow Palette with Mirror",
+    "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks.",
+    "category": "beauty",
+    "price": 19.99,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 3,
+    "title": "Red Lipstick",
+    "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips with a creamy formula.",
+    "category": "beauty",
+    "price": 12.99,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 4,
+    "title": "Red Nail Polish",
+    "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails with a quick-drying formula.",
+    "category": "beauty",
+    "price": 8.99,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 5,
+    "title": "Calvin Klein CK One",
+    "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent suitable for daily wear.",
+    "category": "fragrances",
+    "price": 50.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 6,
+    "title": "Chanel No. 5",
+    "description": "Chanel No. 5 is an iconic fragrance known for its sophisticated floral-aldehyde bouquet, synonymous with luxury.",
+    "category": "fragrances",
+    "price": 120.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 7,
+    "title": "Dior Sauvage",
+    "description": "Dior Sauvage is a bold and woody fragrance for men, featuring notes of intense bergamot and raw pepper accents.",
+    "category": "fragrances",
+    "price": 95.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 8,
+    "title": "Dolce & Gabbana Light Blue",
+    "description": "Light Blue by Dolce & Gabbana is a crisp, refreshing scent reminiscent of sun-drenched Mediterranean summer days.",
+    "category": "fragrances",
+    "price": 85.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 9,
+    "title": "Gucci Bloom EDP",
+    "description": "Gucci Bloom is a rich white floral fragrance that captures the spirit of a contemporary and authentic garden.",
+    "category": "fragrances",
+    "price": 115.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 10,
+    "title": "Unisex Eau de Parfum",
+    "description": "A versatile and subtle everyday Eau de Parfum, expertly blending earthy undertones with crisp citrus top notes.",
+    "category": "fragrances",
+    "price": 45.50,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 11,
+    "title": "MacBook Pro 14 Inch",
+    "description": "High-performance laptop featuring Apple M-series chips, a radiant Liquid Retina XDR display, and premium sound.",
+    "category": "electronics",
+    "price": 1999.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 12,
+    "title": "Asus ROG Strix G16",
+    "description": "A robust gaming laptop engineered with rapid refresh rates, high-end graphics processing, and cooling systems.",
+    "category": "electronics",
+    "price": 1499.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 13,
+    "title": "Apple iPhone 15 Pro",
+    "description": "Premium titanium smartphone boasting an advanced triple-lens camera system and lightning-fast processor speeds.",
+    "category": "electronics",
+    "price": 1099.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 14,
+    "title": "Samsung Galaxy S24 Ultra",
+    "description": "Flagship device integrating built-in stylus support, an elite 200MP camera, and sharp display resolution.",
+    "category": "electronics",
+    "price": 1199.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 15,
+    "title": "Google Pixel 8 Pro",
+    "description": "Smart computing device leveraging optimized cameras, advanced AI tools, and a reliable all-day battery life cycle.",
+    "category": "electronics",
+    "price": 999.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 16,
+    "title": "Knoll Diamond Chair",
+    "description": "An iconic mid-century modern wire mesh lounge chair, combining sculptural elegance with industrial structure.",
+    "category": "furniture",
+    "price": 350.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 17,
+    "title": "Minimalist Wooden Bed",
+    "description": "A clean, solid oak platform bed frame designed to fit seamlessly into any minimalist master bedroom layout.",
+    "category": "furniture",
+    "price": 599.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 18,
+    "title": "Ergonomic Office Chair",
+    "description": "Fully adjustable mesh task chair designed to provide optimal lumbar support during prolonged working sessions.",
+    "category": "furniture",
+    "price": 189.99,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 19,
+    "title": "Classic Leather Sofa",
+    "description": "Luxurious top-grain tufted leather sofa, offering a perfect statement piece for modern living room spaces.",
+    "category": "furniture",
+    "price": 899.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 20,
+    "title": "Modern Dining Table",
+    "description": "Sleek walnut wood dining table constructed to comfortably host family meals and social evening gatherings.",
+    "category": "furniture",
+    "price": 425.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 21,
+    "title": "Organic Red Apples",
+    "description": "Crisp, sweet, and locally harvested premium red apples, cultivated without synthetic chemicals or pesticides.",
+    "category": "groceries",
+    "price": 2.49,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 22,
+    "title": "Fresh Farm Milk",
+    "description": "One gallon of pasteurized whole milk, sourced daily from local organic family-run dairy operations.",
+    "category": "groceries",
+    "price": 3.19,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 23,
+    "title": "Artisanal Sourdough Bread",
+    "description": "Freshly baked sourdough loaf featuring a thick golden crust and a distinctly soft, flavorful internal texture.",
+    "category": "groceries",
+    "price": 4.50,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 24,
+    "title": "Extra Virgin Olive Oil",
+    "description": "Cold-pressed extra virgin olive oil bottled in dark glass containers to guarantee maximum flavor preservation.",
+    "category": "groceries",
+    "price": 14.99,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 25,
+    "title": "Premium Arabica Coffee Beans",
+    "description": "Medium roast whole bean coffee, showcasing complex tasting notes of dark chocolate and citrus highlights.",
+    "category": "groceries",
+    "price": 12.80,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 26,
+    "title": "Hyaluronic Acid Serum",
+    "description": "An intense hydrating serum formulated to plump fine lines and restore moisture to dehydrated skin cells.",
+    "category": "skincare",
+    "price": 24.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 27,
+    "title": "Daily Moisturizing Cream",
+    "description": "Lightweight, non-greasy morning facial lotion engineered to protect the skin barrier against environmental elements.",
+    "category": "skincare",
+    "price": 18.50,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 28,
+    "title": "Gentle Foaming Cleanser",
+    "description": "A soothing face wash designed to remove stubborn makeup and impurities without stripping natural skin oils.",
+    "category": "skincare",
+    "price": 15.00,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 29,
+    "title": "Retinol Night Repair",
+    "description": "Advanced anti-aging night treatment cream formulated to accelerate cell turnover and smooth skin complexion.",
+    "category": "skincare",
+    "price": 38.99,
+    "image": "https://unsplash.com"
+  },
+  {
+    "id": 30,
+    "title": "Mineral Sunscreen SPF 50",
+    "description": "Broad-spectrum physical sunscreen cream providing maximum zinc-based protection with a completely clean matte finish.",
+    "category": "skincare",
+    "price": 22.00,
+    "image": "https://unsplash.com"
+  }
+]

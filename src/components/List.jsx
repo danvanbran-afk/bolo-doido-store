@@ -13,9 +13,9 @@ function List() {
 
   return (
     <div className="list-container">
-      <h2>A Minha Lista</h2>
+      <h2>My List</h2>
       {items.length === 0 ? (
-        <p>Não há itens na lista.</p>
+        <p>There's no items in the list.</p>
       ) : (
         items.map((item) => (
           <ListItem 

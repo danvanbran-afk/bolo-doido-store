@@ -1,0 +1,195 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+.page-container {
+  flex: 1;
+  padding: 40px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.project-form {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #f1e0d6;
+  max-width: 480px;
+  box-shadow: 0 4px 12px rgba(74, 52, 41, 0.03);
+}
+
+.project-form h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #ff7b54;
+  font-weight: 600;
+}
+
+
+.form-group {
+  position: relative;
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+.project-form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ebd3c5;
+  border-radius: 8px;
+  background-color: #fffcfb;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  display: block;
+}
+
+.project-form input:focus {
+  outline: none;
+  border-color: #ff7b54;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 4px rgba(255, 123, 84, 0.15);
+}
+
+.project-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff7b54;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 5px;
+}
+
+.project-form button:hover {
+  background-color: #e66a46;
+  transform: translateY(-1px);
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.form-actions button[type="button"] {
+  background-color: #6c757d;
+}
+
+.form-actions button[type="button"]:hover {
+  background-color: #5c636a;
+}
+
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.form-actions button[type="button"] {
+  background-color: #6c757d;
+}
+
+.form-actions button[type="button"]:hover {
+  background-color: #5c636a;
+}
+
+.items-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 25px;
+  width: 100%;
+}
+
+.item-card {
+  background-color: #ffffff;
+  border: 1px solid #f1e0d6;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(74, 52, 41, 0.02);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 320px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(74, 52, 41, 0.08);
+  border-color: #ff7b54;
+}
+
+.item-card h4 {
+  font-size: 16px;
+  color: #4a3429;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.item-card p {
+  font-size: 13px;
+  color: #8c766b;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.item-card p.price-tag {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff7b54;
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+
+.item-card-actions {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.item-card-actions button {
+  flex: 1;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #ebd3c5;
+  background-color: #ffffff;
+  color: #4a3429;
+  transition: all 0.2s ease;
+}
+
+.item-card-actions button:first-of-type:hover {
+  background-color: #fdf5f1;
+  border-color: #ff7b54;
+  color: #ff7b54;
+}
+
+.item-card-actions button.btn-delete {
+  background-color: #ffeded;
+  color: #ff4d4d;
+  border: 1px solid #ffcccc;
+}
+
+.item-card-actions button.btn-delete:hover {
+  background-color: #ff4d4d;
+  color: white;
+  border-color: #ff4d4d;
+}
